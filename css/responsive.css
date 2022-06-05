@@ -1,0 +1,114 @@
+@media (max-width:1300px){
+    .navbar_container .menu-navbar-nav{
+        width: auto;
+    }
+    /* .navbar-collapse{
+        justify-content: end !important;
+    } */
+}
+
+@media (max-width:1230px){
+    .navbar_container .nav-item{
+        margin: 0 5px;
+    }
+    .navbar_container .contact-btn{
+        padding: 12px 15px !important;
+    }
+}
+
+@media (max-width:1070px){
+    .navbar_container .nav-item .nav-link{
+        font-size: 16px;
+    }
+
+    .about_container .about_title{
+        font-size: 24px;
+    }
+
+    .services-inner-container{
+        max-width: 90%;
+    }
+}
+
+@media (max-width:991px){
+    .navbar_container .navbar-brand img{
+        /* width: 180px; */
+    }
+
+    .navbar_container .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    .navbar_container .menu-navbar-nav{
+        text-align: center;
+    }
+
+    .navbar_container .nav-item .nav-link{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .navbar_container .nav-item:last-child .nav-link{
+        margin-bottom: 20px;
+    }
+
+    .navbar_container .contact-btn{
+        padding: 12px 29px !important;
+    }
+
+    .navbar_container .navbar-collapse{
+        background: var(--bg-white);
+       
+    }
+
+    .about_container .about_title{
+        font-size: 24px;
+    }
+
+    .about_container .about_title span{
+        font-size: 28px;
+    }
+
+
+}
+
+/* custom */
+
+@media (max-width: 768px){
+    .banner_container{
+        padding: 100px 0 20px;
+    }
+    .banner_container .contact-btn-section {
+        justify-content: center;
+    }
+    .services-inner-container{
+        max-width: 60%;
+    }
+}
+
+@media (max-width:576px){
+    .services-inner-container{
+        max-width: 85%;
+    }
+}
+
+@media (min-width: 768px){
+    .container.hero-container, .container-lg.hero-container, .container-md.hero-container, .container-sm.hero-container {
+        min-width: 90%;
+        max-width: 95%;
+    }
+    
+}
+
+@media (min-width: 992px){
+    .container.hero-container, .container-lg.hero-container, .container-md.hero-container, .container-sm.hero-container {
+    max-width: 95%;
+}
+}
+
+@media (max-width:992px){
+    .banner_container .banner-title{
+        font-size: 48px;
+    }
+}
+/* custom ends */
