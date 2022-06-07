@@ -452,6 +452,13 @@ body{
     padding: 40px 0;
 }
 
+.testimonial-heading{
+    font-weight: 500;
+    /* color: #2B87B9; */
+    color: #7d93b2;
+    font-size: 16px;
+}
+
 .swiper-container{
     position: relative;
     /* margin-top: 32px; */
