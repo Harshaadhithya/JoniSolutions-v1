@@ -19,3 +19,47 @@ for(link of navbar_links){
     })
 }
 
+
+// $(document).ready(function() {
+//     $(".owl").owlCarousel({
+//         items: 4,
+//         loop: true,
+//         nav: false,
+//         autoplay: true,
+//         autoplayTimeout: 2000,
+//         autoplayHoverPause: true,
+//         responsiveClass: true,
+//         responsive: {
+//             0: {
+//                 items: 2
+//             },
+//             600: {
+//                 items: 3
+//             },
+//             1000: {
+//                 items: 6
+//             }
+//         }
+//     });
+// });
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+

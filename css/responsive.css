@@ -69,6 +69,14 @@
         font-size: 28px;
     }
 
+    .testimonials_container .swiper-container{
+        margin-top: 40px;
+    }
+
+    .testimonials_content{
+        margin-top: 0.5rem;
+    }
+
 
 }
 
