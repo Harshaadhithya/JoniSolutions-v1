@@ -117,6 +117,23 @@
         width: 90%;
     }
 
+    .contact-box-left{
+        padding-right: 1.5rem!important;
+        padding-left: 1.5rem!important;
+    }
+
+
+    .social-links-ul{
+        justify-content: center;
+    }
+
+    .contact-text p{
+        margin-bottom: 0.5rem;
+    }
+
+
+    }
+
 }
 
 @media (min-width: 768px){
