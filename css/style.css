@@ -42,7 +42,7 @@
     --text-black:#000;
     --text-white:#fff;
     --text-dark-gray:#4c535d; 
-    --text-light-2:#798089;
+    --text-light-2:#8a929c;
     --text-light-3:#5e5e72;
     --text-light-4:#A0A0A0;
     --text-dark-green:#12c4a0;
@@ -61,6 +61,11 @@ body{
     font-weight: var(--normal-font-weight);
     background-color: var(--bg-white); 
     width: 100vw;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none !important;
+    color: inherit !important;
 }
 
 .contact-btn{
@@ -283,15 +288,40 @@ body{
     padding: 60px 0;
 }
 
+.about-1 .about_title ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+
+
 .about_container .innovate{
     /* background-image: linear-gradient(to right top, #002955, #072a51, #0f2b4e, #152c4a, #1a2d46); */
-    padding: 100px 0 0;
+    padding: 100px 0 80px;
 }
 
-.about_container .about_title span{
+/* .about_container .about_title span{
     font-family: var(--secondary-font);
     color: #2B87B9;
     font-size: 50px;
+} */
+
+/* .innovate .about_title span{
+    color: #2B87B9;
+    font-size: 34px;
+} */
+
+.about_container .about_title span{
+    color: #2B87B9;
+    font-size: 34px;
+}
+
+::marker{
+    color: #2B87B9;
 }
 
 .about_container .about-image{
@@ -309,6 +339,102 @@ body{
     /* width: 100%; */
     animation: shake 5s ease-in-out infinite;
 }
+
+
+/* about-me */
+.about_me_container{
+    background-image: linear-gradient(to right top, #000b18, #081929, #09243a, #07304d, #013c61);
+    padding: 60px 0;
+    /* height: 90vh; */
+}
+
+.about_me_card-img-top{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.about_me_container .about_me_name{
+    color: #2B87B9;
+}
+
+.about_me_container .card{
+    border-top: 8px solid #2B87B9;
+    max-width: 300px;
+}
+.about_me_container p{
+    color:var(--text-light-2);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.7;
+    max-width: 700px;
+    margin-bottom: 1.5rem;
+}
+
+.about_me_container .card:hover{
+    /* transform: scale(1.025); */
+}
+
+/* about --> workflow */
+.workflow_container{
+    padding: 0 0 100px;
+}
+
+.workflow-title p{
+    color: var(--text-light-2);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.7;
+    /* max-width: 700px; */
+}
+.workflow-icon-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.workflow-icon-text-wrapper{
+    margin: auto;
+}
+.workflow-icon{
+    /* padding: 4rem; */
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    border: 1px solid #013c61;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    
+   
+  border: 0.2rem solid #013c61;
+  
+  
+  box-shadow: 0 0 .1rem #013c61,
+            0 0 .1rem #013c61,
+            0 0 1rem #4dace0,
+            0 0 0.4rem #54acd4,
+            0 0 1.4rem #4ea2da,
+            inset 0 0 .6rem #489ee4; 
+}
+
+.workflow-icon img{
+    width: 3rem;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.workflow-text{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* about --> workflow ENDS */
+
+
+/* about-me ends */
 
 /* .about_container .projects .progress-bar-circle{
     width: ;
@@ -642,6 +768,13 @@ body{
     justify-content:flex-start;
     padding-left: 0;
   }
+
+  .about_me_container .social-links-ul{
+    justify-content: center;
+  }
+
+  
+
   .social-links-ul li{
     position: relative;
     display: block;
@@ -734,4 +867,21 @@ body{
     text-shadow: 0 0 15px #ff0000;
   }
 
+  .about_me_container .social-links-ul li{
+    /* box-shadow: 1px 1px 11px 1px rgba(0,0,0,0.56);
+-webkit-box-shadow: 1px 1px 11px 1px rgba(0,0,0,0.56);
+-moz-box-shadow: 1px 1px 11px 1px rgba(0,0,0,0.56); */
+
+box-shadow: 1px 1px 11px 1px rgba(0,0,0,0.26);
+-webkit-box-shadow: 1px 1px 11px 1px rgba(0,0,0,0.26);
+-moz-box-shadow: 1px 1px 11px 1px rgba(0,0,0,0.26);
+/* margin: auto; */
+}
+
+.about_me_container .social-links-ul li i{
+    text-align: center;
+    margin: auto;
+}
+
 /*  */
+

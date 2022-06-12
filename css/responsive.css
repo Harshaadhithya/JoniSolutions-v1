@@ -76,8 +76,10 @@
     }
 
     .about_container .about_title span{
-        font-size: 28px;
+        font-size: 24px;
     }
+
+    
 
     .testimonials_container .swiper-container{
         margin-top: 40px;
@@ -90,6 +92,16 @@
     .contact-img-container img{
         width: 75%;
     }
+
+    .social-links-ul li{
+        margin: 0 8px;
+    }
+
+    .about_container .innovate{
+        /* background-image: linear-gradient(to right top, #002955, #072a51, #0f2b4e, #152c4a, #1a2d46); */
+        padding-bottom: 0;
+    }
+
 
 
 }
@@ -106,6 +118,17 @@
     .services-inner-container{
         max-width: 60%;
     }
+    .about_me_container .card{
+        margin-bottom: 2rem;
+    }
+
+    .workflow-icon-wrapper{
+        flex-direction: column;
+    }
+    .workflow-icon{
+        margin-top: 20px;
+    }
+    
 }
 
 @media (max-width:576px){
