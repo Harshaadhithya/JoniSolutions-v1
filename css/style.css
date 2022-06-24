@@ -885,3 +885,17 @@ box-shadow: 1px 1px 11px 1px rgba(0,0,0,0.26);
 
 /*  */
 
+.footer_contact_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contact-row{
+    display: flex;
+    flex-direction: row !important;
+}
+
+.text-info{
+    color: #2B87B9 !important;
+}
+
