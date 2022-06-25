@@ -38,6 +38,11 @@
     .contact-img-container img{
         width: 100%;
     }
+
+    .brand-row{
+        padding-right: 3rem ;
+        padding-left: 3rem ;
+    }
 }
 
 @media (max-width:991px){
@@ -102,6 +107,8 @@
         padding-bottom: 0;
     }
 
+    
+
 
 
 }
@@ -160,6 +167,11 @@
         padding-left: 1rem!important;
     }
 
+    .brand-row{
+        padding-right: 1rem ;
+        padding-left: 1rem ;
+    }
+
 }
 
 @media (min-width: 768px){
@@ -179,6 +191,9 @@
 @media (max-width:992px){
     .banner_container .banner-title{
         font-size: 48px;
+    }
+    .banner_container .single-service-title{
+        font-size: 36px;
     }
 }
 /* custom ends */

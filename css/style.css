@@ -899,3 +899,112 @@ box-shadow: 1px 1px 11px 1px rgba(0,0,0,0.26);
     color: #2B87B9 !important;
 }
 
+
+/* single service */
+.banner_container .single-service-title{
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.15;
+    margin-bottom: 25px;
+    color: var(text-black);
+}
+
+
+/* .brands */
+
+.brand_wrapper{
+    padding:60px 0;
+    background:var(--bg-light-2);
+}
+.brand_wrapper .brand_subtitle{ 
+    /* font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: var(--text-light-3); */
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--text-light-2);
+    margin-bottom: 40px;
+    
+}
+.brand_wrapper .brand_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+
+.brand-row{
+    padding-right: 5rem ;
+    padding-left: 5rem ;
+}
+
+.showcase_card{
+    height: 100%;
+    
+}
+
+.showcase_card a{
+    height: 100%;
+    
+}
+.brand_wrapper .showcase_card p{
+    width: 100%;
+    max-width: 200px;
+    /* height: 100%; */
+    /* height: fit-content; */
+    border-radius: 8px;
+    padding: 35px 15px;
+    background-color: var(--bg-white);
+    box-shadow: 0 5px 40px rgb(0 0 0 / 8%);
+    transition: 0.7s;
+    border-top: 4px solid #2B87B9;
+    color:#07304d;
+    /* color: #ddf5fc; */
+    font-weight: 600;
+    font-size: large;
+    max-width: 250px;
+    
+    
+    /* background-image: linear-gradient(to right top, #000b18, #081929, #09243a, #07304d, #013c61); */
+
+
+
+}
+.brand_wrapper .card:hover {
+    transform: scale(1.05);
+    position: relative;
+    z-index: 2;
+}
+
+.brand_wrapper .card{
+    padding: 35px 15px;
+    background-color: var(--bg-white);
+    box-shadow: 0 5px 40px rgb(0 0 0 / 8%);
+    transition: 0.7s;
+    border: none;
+    border-top: 4px solid #2B87B9;
+    color:#07304d;
+    color:#07304d;
+    /* color: #ddf5fc; */
+    font-weight: 600;
+    font-size: large;
+    
+}
+
+.brand_wrapper .card p{
+    /* margin: 0 auto;
+    text-align: center; */
+    margin-bottom: 0;
+}
+
+.brand_wrapper .card a{
+    margin: auto;
+    text-align: center;
+   
+}
